@@ -1,0 +1,421 @@
+body{
+     font-family:'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+     font-family: 'Source Sans Pro', sans-serif;
+}
+.navbar-dark .navbar-brand{
+     color: #ff305b;
+     display: block;
+     font-size: 24px;
+     font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link{
+     color: #ff305b;
+}
+.navbar-dark .navbar-nav .nav-link{
+     color: #fff;
+     font-size: 17px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+     color: #ff305b;
+}
+.navbar-dark .navbar-toggler{
+     color: white;
+     border: 0;
+}
+.navbar-collapse.show{
+     background-color: #222;
+     transition: 0.7s;
+
+}
+header{
+     background-image: url(../img/slider/slider-01.jpg);
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+}
+.scroll-navbar{
+     background-color: #222;
+     transition: 0.4s;
+}
+
+.layer{
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.7);
+}
+.layer .header-contact h3{
+     font-weight: 600;
+     margin: 0 0 10px;
+     font-family: 'Source Sans Pro', sans-serif;
+}
+.layer .header-contact h1{
+     color: #ff305b;
+     font-size: 70px;
+}
+.layer .header-contact h4{
+     font-size: 26px;
+}
+.abuot .abuot-img {
+     border: 8px solid #444;
+     border-radius: 5px;
+     height: 95%;
+     width: 100%;
+}
+.abuot .abuot-img .img-layer{
+     position: relative;
+     top: 25px;
+     left: 20px;
+}
+.abuot .abuot-img .img-layer span{
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+     position: absolute;
+     top:0;
+     left: 0;
+     opacity: 0;
+     transition: all 0.6s;
+     font-size: 24px;
+     color: #fff;
+}
+.abuot .abuot-img .img-layer:hover span{
+     opacity: 1;
+     top: 0;
+}
+.abuot-contact .first-contact span{
+     color: #ff305b;
+     font-size: 40px;
+     padding-right: 10px;
+}
+.abuot-contact .first-contact p{
+     color: #555;
+     border-bottom: 1px dashed #999;
+     margin-bottom: 25px;
+     padding-bottom: 25px;
+}
+.last-contact ul{
+     display: table;
+     list-style: outside none none;
+     margin: 0;
+     padding: 0;
+}
+.last-contact ul li:nth-child(2n+1){
+     float: left;
+     width: 40%;
+}
+.last-contact ul li{
+     color: #555555;
+     font-weight: 400;
+     line-height: 1;
+     margin-bottom: 25px;
+     white-space: nowrap;
+     width: 60%;
+     float: right;
+}
+.last-contact ul li span{
+     color: #333333;
+     font-weight: 500;
+     font-size: 19px;
+     padding-right:5px;
+}
+.abuot-contact .btn{
+     background-color:#ff305b;
+     color: white;
+     margin-right: 20px;
+     padding: 8px 15px
+}
+.Services{
+     background-color: #f1f1f1;
+}
+.Services h2{
+     font-size: 40px;
+     font-weight: 800;
+     line-height: 30px;
+     margin: 40px 0;
+     padding-bottom: 30px;
+}
+.Services .ser-all h2{
+     font-size: 40px;
+     color: #333;
+     font-weight: 800;
+     line-height: 30px;
+     margin-bottom: 40px;
+     padding-bottom: 30px;
+     position: relative;
+}
+.Services .ser-all h2::after{
+     content: " ";
+     background-color: #ff305b;
+     position: absolute;
+     width: 160px;
+     height: 1px;
+     bottom: 5px;
+     left: 0;
+     right: 0;
+     margin: auto;
+}
+.Services .ser-all h2::before{
+     content: " ";
+     position: absolute;
+     border: #ff305b 1px solid;
+     border-width: 1px 0;
+     width: 65px;
+     padding: 5px 0;
+     height: 1px;
+     bottom: 0;
+     right: 0;
+     left: 0;
+     margin: auto;
+}
+.Services .ser-contact{
+     margin-top: 50px;
+     padding-top: 30px ;
+     transition: 1s box-shadow;
+}
+.Services .ser-contact:hover{
+     background-color: white;
+     box-shadow: 3px 1px 15px rgb(219, 219, 219),
+                    -3px -1px 15px rgb(219, 219, 219);
+}
+.Services .ser-contact:hover i{
+     transform: scale(1.2);
+}
+.Services .ser-contact .icon i{
+     font-size: 35px;
+     color: #ff305b;
+     transition: 0.3s;
+}
+.Services .ser-contact h3{
+     padding-top: 15px;
+     font-size: 23px;
+     
+}
+.Services .ser-contact p{
+     color: #555;
+     padding: 20px 10px;
+}
+.portfolio .pro-titel h2{
+     font-size: 40px;
+     color: #333;
+     font-weight: 800;
+     line-height: 30px;
+     margin-bottom: 40px;
+     padding-bottom: 30px;
+     position: relative;
+}
+.portfolio .pro-titel h2::after{
+     content: " ";
+     background-color: #ff305b;
+     position: absolute;
+     width: 160px;
+     height: 1px;
+     bottom: 5px;
+     left: 0;
+     right: 0;
+     margin: auto;
+}
+.portfolio .pro-titel h2::before{
+     content: " ";
+     position: absolute;
+     border: #ff305b 1px solid;
+     border-width: 1px 0;
+     width: 65px;
+     padding: 5px 0;
+     height: 1px;
+     bottom: 0;
+     right: 0;
+     left: 0;
+     margin: auto;
+}
+.portfolio .pro-btn button{
+     font-size: 18px;
+     letter-spacing: 1px;
+     padding: 5px 13px;
+}
+.portfolio .pro-btn .all{
+     color: #ff305b;
+}
+.fun{
+     background-color: #f1f1f1;
+}
+.fun .fun-icon i{
+     font-size: 25px;
+     padding-bottom: 20px;
+     color: #ff305b;
+}
+.fun .fun-content .num{
+     font-size: 26px;
+     font-weight: 800;
+}
+.fun .fun-content h5{
+     color: #555555;
+     font-size: 16px;
+     margin: 0;
+}
+
+
+.blog{
+     background-color:#f1f1f1 ;
+}
+.blog .blog-titel h2{
+     font-size: 40px;
+     color: #333;
+     font-weight: 800;
+     line-height: 30px;
+     margin-bottom: 40px;
+     padding-bottom: 30px;
+     position: relative;
+}
+.blog .blog-titel h2::after{
+     content: " ";
+     height: 1px;
+     width: 160px;
+     background-color: #ff305b;
+     position: absolute;
+     bottom: 5px;
+     left: 0;
+     right: 0;
+     margin: auto;
+}
+.blog .blog-titel h2::before{
+     content: " ";
+     position: absolute;
+     width: 65px;
+     height: 1px;
+     border: 1px solid #ff305b;
+     border-width: 1px 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin: auto;
+     padding: 4.5px 0;
+}
+.card .card-body h4{
+     color: #333333;
+     transition: color 0.7s;
+     letter-spacing: 0;
+     font-weight: 500;
+}
+.card .card-body h4:hover{
+     color: #ff305b;
+}
+.card .card-body a{
+     color: black;
+     transition: color 0.7s;
+     text-decoration: none;
+}
+.card .card-body a:hover{
+     color: #ff305b;
+}
+.contact .contact-titel h2{
+     font-size: 40px;
+     color: #333;
+     font-weight: 800;
+     line-height: 30px;
+     margin-bottom: 40px;
+     padding-bottom: 30px;
+     position: relative;
+}
+.contact .contact-titel h2::before{
+     content: " ";
+     position: absolute;
+     width: 65px;
+     height: 1px;
+     border: 1px solid #ff305b;
+     border-width: 1px 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin: auto;
+     padding: 4.5px 0;
+}
+.contact .contact-titel h2::after{
+     content: " ";
+     height: 1px;
+     width: 160px;
+     background-color: #ff305b;
+     position: absolute;
+     bottom: 5px;
+     left: 0;
+     right: 0;
+     margin: auto;
+}
+.contact input{
+     box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+     height: 40px;
+     border-radius: 4px;
+     color: #555555;
+     padding: 8px 12px;
+     border: 1px solid #a94442;
+     font-size: 14px;
+}
+.contact .form-big textarea{
+     box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+     height: 40px;
+     border-radius: 4px;
+     color: #555555;
+     padding: 8px 12px;
+     border: 1px solid #a94442;
+     font-size: 14px;
+     height: 160px;
+     max-height: 160px;
+}
+.contact .btn1{
+     background-color: #ff305b;
+     border-color: #ff305b;
+     color: #ffffff;
+     padding: 0 20px;
+     height: 40px;
+     line-height: 38px;
+     transition: background 0.3s;
+}
+.contact .btn1:hover{
+     background-color: #ec2403;
+}
+.fot-web{
+     background-color: #333333;
+     color: #fff;
+
+}
+.fot-web .fot-icon i{
+     transition: 0.3s color;
+}
+.fot-web .fot-icon i:hover{
+     color: #ff305b;
+}
+.fot-web .fot-content p{
+     font-size: 18px;
+}
+.fot-web .fot-content a{
+     color: #ff305b;
+}
+
+
+
+@media (max-width: 750px) and (min-width: 550px) {
+     .abuot .abuot-img {
+          border-width: 0;
+     }
+     .abuot .abuot-img .img-layer{
+          top: 0;
+          left: 0;
+     }
+
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+
+     background-color: transparent;
+}
+}
+@media (max-width: 765px){
+     
+     .navbar-nav .nav-item{
+          text-align: center;
+
+     }
+     
+}
